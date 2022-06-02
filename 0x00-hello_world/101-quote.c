@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 * main - To print to standard error
+
 * Description: A program that prints output to standard error
 * Return: 1
 */
