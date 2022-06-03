@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
-*main -This is the entry
-*Return:returns zero
+* Main -This is the entry
+*
+* Return:returns zero
 */
 int main(void)
 {
