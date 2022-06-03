@@ -17,7 +17,7 @@ int main(void)
   	{
     		printf("%i is positive \n", n);
  	}
-  	elseif (n == 0)
+  	else if (n == 0)
   	{
     		printf("%i\n is zero \n", n);
   	}
