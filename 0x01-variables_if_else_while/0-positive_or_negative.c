@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- *	main - This is the entry
+ *  main - Entry point
  *
- *	Return: returns zero
+ *  Return: returns 0 (Success)
  */
 int main(void)
 {
