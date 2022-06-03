@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-* Main -This is the entry
+*	main - This is the entry
 *
-* Return:returns zero
+*	Return: returns zero
 */
 int main(void)
 {
