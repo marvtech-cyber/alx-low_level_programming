@@ -3,12 +3,12 @@
 #include <stdio.h>
 /* more headers goes there */
 
+
+/* betty style doc for function main goes there */
 /**
- * main - Checks last digit of random number wheather is greater than,less than or zero
- * @n: Random number
- * @p: Last digit
+ *  main - Entry point
  *
- * Return: returns 0 (SUCCESS)
+ *  Return: Always 0 (Success)
  */
 int main(void)
 {
