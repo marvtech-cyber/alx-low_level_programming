@@ -1,24 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 
 /**
- * main - Starting point
- *
- * Return: 0 (Success)
- *
+ * main - initilization point
+ * Return: 0
  */
-int main(void)
+int  main(void)
 {
-	int d;
+	int m;
 
-	d = 0;
-
-	while (d <= 9)
+	for (m = '0'; m <= '9'; m++)
 	{
-		putchar(d);
-		++d;
+		putchar(m);
 	}
 	putchar('\n');
-
 	return (0);
 }
