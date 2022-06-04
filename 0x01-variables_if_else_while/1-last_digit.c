@@ -3,8 +3,11 @@
 /* more headers goes there */
 
 /**
- * main - 
+ * main - Checks last digit of random number wheather is greater than,less than or zero
+ * @n: Random number
+ * @p: Last digit
  *
+ * Return: returns 0 (SUCCESS)
  */
 int main(void)
 {
@@ -19,7 +22,13 @@ int main(void)
 		printf("Last digit of %d is %d and is greater than 5", n,p);
 	
 	}
-	else if (p < 6)
+	else if (p < 6 && !=0)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0", n,p);
 	}
+	else
+	{
+		printf("Last digit of %d is %d and is 0", n,p);
+	}
+	return (0);
+}
