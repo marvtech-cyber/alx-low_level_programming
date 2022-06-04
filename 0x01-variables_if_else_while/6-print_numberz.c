@@ -1,20 +1,18 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
- *  main - Entry point
+ *  main - Starting point
  *
  *  Return: Always 0 (Success)
  */
 int main(void)
 {
-
 	int n;
 
-	numz = '0';
-
-	for (n = '0'; n <= '9'; ++n)
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(n);
+		putchar(n % 10 + '0');
 	}
 	putchar('\n');
 	return (0);
