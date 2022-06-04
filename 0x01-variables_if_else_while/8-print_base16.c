@@ -8,10 +8,10 @@ int main(void)
 	char a;
 
 	for (a = '0'; a <= '9'; a++)
-		printchar(a);
+		putchar(a);
 
 	for (a = 'a'; a <= 'f'; a++)
-		printchar(a);
+		putchar(a);
 
 	printchar('\n');
 	return (0);
