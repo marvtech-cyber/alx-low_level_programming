@@ -9,13 +9,16 @@
  */
 int main(void)
 {
-	int n = 0;
-	
-	while (n < 10)
+	char d;
+
+	d = '0';
+
+	while (d <= '9')
 	{
-		printf("%d", n);
-		n++;
+		putchar(numb10);
+		++d;
 	}
-	printf("\n");
+	putchar('\n');
+
 	return (0);
 }
