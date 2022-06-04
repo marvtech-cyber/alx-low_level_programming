@@ -1,19 +1,24 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- *  main - Starting point
+ * main - Starting point
  *
- *  Return: Always 0 (Success)
+ * Return: 0 (Success)
+ *
  */
 int main(void)
 {
-	int n;
+	char d;
 
-	for (n = 0; n <= 9; n++)
+	d = '0';
+
+	while (d <= '9')
 	{
-		putchar(n % 10 + '0');
+		putchar(d);
+		++d;
 	}
 	putchar('\n');
+
 	return (0);
 }
