@@ -4,7 +4,7 @@
 /**
  * main - program entry point
  * Description: prints lowercase alphabet without q and e
- *Return:Always 0 when successful 
+ * Return: Always 0 
  */
 
 int main(void)
