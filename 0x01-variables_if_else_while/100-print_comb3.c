@@ -16,7 +16,7 @@ int main(void)
 		{
 			if (a == 0 && b == 9)
 			{
-				putchar("%d%d", a,b);
+				putchar("%d%d, ", a,b);
 			}
 			else
 			{
