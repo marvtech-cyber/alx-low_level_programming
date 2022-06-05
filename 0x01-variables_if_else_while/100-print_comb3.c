@@ -16,10 +16,15 @@ int main(void)
 		{
 			if (a == 0 && b == 9)
 			{
-				printchar("%d%d", a,b);
+				putchar("%d%d", a,b);
 			}
 			else
 			{
-				printchar("%d%d, ", a, b);
+				putchar("%d%d, ", a, b);
 			}
 		}
+		
+	}
+	putchar('\n');
+	return (0);
+}
