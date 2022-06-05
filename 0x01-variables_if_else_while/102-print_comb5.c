@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - initialization point 
+ * main - initialization 
  * Return: 0 (Success)
  */
 
