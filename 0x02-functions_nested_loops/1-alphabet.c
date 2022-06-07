@@ -3,7 +3,7 @@
 /**
  * main - starting point
  *
- * Description: prints alphabet from a to z in lowercase
+ * Description: print lower alphabet
  *
  * Return: always 0 (Success)
  */
