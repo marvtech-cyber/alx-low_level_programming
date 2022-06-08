@@ -3,10 +3,10 @@
 
 /**
  * _abs - entry point
- * @i: parameter integer to find absolute value
+ * @n: parameter integer to find absolute value
  *
  * Description: checks the absolute value of an integer
- * Return positive or negative value n 
+ * Return: positive or negative value n 
  */
 int _abs(int n)
 {
