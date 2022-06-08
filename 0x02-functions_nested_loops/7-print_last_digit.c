@@ -4,7 +4,7 @@
  * print_last_digit - entry point
  *
  * Description: finds the last didit of an integer
- * Return: the value of the last digit
+ * Return: the value of last digit
  */
 int print_last_digit(int r)
   {
