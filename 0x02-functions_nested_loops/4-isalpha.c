@@ -9,12 +9,14 @@
  * Return: returns 1 if is a letter and 0 if otherwise
  */
 
- int _isalpha(int c)
- {
- 	if (isalpha(c) == 1)
+int _isalpha(int c)
+{
+	if (isalpha(c) == 0)
 	{
-		return(1);
+		return (0);
 	}
 	else
-		return (0);
+	{
+		return (1);
+	}
 }
