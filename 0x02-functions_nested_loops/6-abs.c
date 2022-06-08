@@ -6,7 +6,7 @@
  * @i: parameter integer to find absolute value
  *
  * Description: checks the absolute value of an integer
- * Returns: The absolute value 
+ * Return positive or negative value n 
  */
 int _abs(int n)
 {
