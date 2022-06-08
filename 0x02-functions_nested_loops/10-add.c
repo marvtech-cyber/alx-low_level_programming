@@ -6,6 +6,7 @@
  * @b: second parameter
  *
  * Return: result of addition
+ */
 int add(int a, int b)
 {
     int c = a + b;
