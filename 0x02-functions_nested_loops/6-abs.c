@@ -4,7 +4,7 @@
 /**
  * _abs - entry point
  * @i: parameter integer to find absolute value
- * 
+ *
  * Description: checks the absolute value of an integer
  * Returns: The absolute value 
  */
