@@ -3,7 +3,7 @@
 
 /**
  * _isalpha - entry point
- * @c: parameter to check 
+ * @c: parameter
  *
  * Description: checks for alphabetic character
  * Return: returns 1 if is a letter and 0 if otherwise
