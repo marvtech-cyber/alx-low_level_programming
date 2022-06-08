@@ -8,16 +8,11 @@
  * Description: checks the absolute value of an integer
  * Returns: The absolute value 
  */
-int _abs(int i)
+int _abs(int n)
 {
-  if (i >= 0)
-  {
-    return (i);
-  }
-  else
-  {
-    i = i * -1;
-    return (i);
-  }
+	if (n < 0)
+	{
+		return (-n);
+	}
+		return (n);
 }
-    
