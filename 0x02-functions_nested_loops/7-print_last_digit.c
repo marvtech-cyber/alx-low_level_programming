@@ -6,9 +6,11 @@
  * Description: finds the last didit of an integer
  * Return: the value of the last digit
  */
-int print_last_digit(int digit)
+int print_last_digit(int r)
   {
-	int last = r % 10;
+	int last;
+	
+	last = r % 10;
 
 	if (last < 0)
 		last *= -1;
