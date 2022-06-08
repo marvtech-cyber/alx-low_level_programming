@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - finds and prints the first 98 Fibonacci numbers folllowed by a new line
+ * main - finds and prints the first 98 Fibonacci numbers
+ * folllowed by a new line
  * Return: 0 (success)
  */
 int main(void)
