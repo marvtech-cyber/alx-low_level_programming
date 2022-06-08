@@ -2,6 +2,7 @@
 
 /**
  * print_last_digit - entry point
+ *@r: integer to find last digit
  *
  * Description: finds the last didit of an integer
  * Return: the value of last digit
