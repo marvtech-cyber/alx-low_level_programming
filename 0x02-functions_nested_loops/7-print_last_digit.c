@@ -7,9 +7,15 @@
  * Return: the value of the last digit
  */
 int print_last_digit(int digit)
-{
-  int i;
-  
-  i = digit % 10;
-  return (i);
+  {
+	int last = r % 10;
+
+	if (last < 0)
+		last *= -1;
+
+	_putchar(last + '0');
+
+
+	return (last);
+
 }
