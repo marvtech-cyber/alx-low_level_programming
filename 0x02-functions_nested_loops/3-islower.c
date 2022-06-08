@@ -1,4 +1,6 @@
-#include "main"
+#include "main.h"
+#include <ctype.h>
+
 /**
  * _islower - checks if character is lower
  @c: parameter for checking whether is lower
