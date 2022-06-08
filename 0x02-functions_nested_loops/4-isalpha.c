@@ -7,7 +7,7 @@
  *
  * Description: checks for alphabetic character
  * Return: returns 1 if is a letter and 0 if otherwise
- *\
+ */
 
  int _isalpha(int c)
  {
