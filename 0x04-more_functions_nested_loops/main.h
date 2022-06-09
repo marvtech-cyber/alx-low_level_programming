@@ -4,4 +4,4 @@
 int _isupper(int c);
 
 
-#end if /*MAIN_H*/
+#endif
