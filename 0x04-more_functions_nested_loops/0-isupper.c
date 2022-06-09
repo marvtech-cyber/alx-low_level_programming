@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype.h>
+
 /**
  * _isupper - checks for uppercase character
  * @c: parameter
@@ -8,7 +8,7 @@
  */
 int _isupper(int c)
 {
-	if (isupper(c) == 1)
+	if (c >= 65 && c <= 98)
 	{
 		return (1);
 	}
