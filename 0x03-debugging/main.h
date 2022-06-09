@@ -4,6 +4,6 @@
 #include <stdio>
 
 void positive_or_negative(int i);
-intlargest_number(int a, int b, int c);
+int largest_number(int a, int b, int c);
 
 #end if
