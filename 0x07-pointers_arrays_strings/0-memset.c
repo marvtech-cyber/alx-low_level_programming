@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * _memset - fills memory with a byte
+ * @s: pointer to the block of memory to be filled
+ * @b: value to be set
+ * @n: number of bytes to be set
+ * Return: s
+ */
+
+char *_memset(char *s, int b, unsigned int n)
+{
+	unsigned int i = 0;
+
+	while (i < n)
+	{
+		s[i] = b;
+		i++;
+	}
+	return (s);
+}
