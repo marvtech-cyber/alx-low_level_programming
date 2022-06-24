@@ -1,11 +1,19 @@
 #include "main.h"
 
 /**
- * _puts- updates the value it points to to 98.
- * @str : first param
- * Return: lenght of s.
+ * _puts - prints a string to stdout
+ * @str: string to print
+ *
+ * Return: void
  */
-
 void _puts(char *str)
 {
+	int i = 0;
+
+	while (*(str + i))
+	{
+		_putchar(*(str + i));
+		i++;
+	}
+	_putchar('\n');
 }
