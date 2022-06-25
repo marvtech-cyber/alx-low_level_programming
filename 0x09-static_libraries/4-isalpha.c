@@ -1,29 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-/**
- * _strspn - function that copes memory with a constant byte
- * @s : string
- * @accept : char source
- * Return: length of a prefix substring.
+/*
+ * _isalpha- checks for alphabetic character.
+ *
+ * @c : character
+ * Return: always 0
  */
-
-unsigned int _strspn(char *s, char *accept)
+int _isalpha(int c)
 {
-	int i = 0, j;
-	unsigned int nbr = 0;
-
-	while (accept[i])
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		j = 0;
-
-		while (s[j] != 32)
-		{
-			if (accept[i] == s[j])
-				nbr++;
-			j++;
-		}
-		i++;
+		return (1);
 	}
 
-	return (nbr);
+	return (0);
 }
