@@ -2,7 +2,7 @@
 #define _DOG_H_
 
 /**
- *struct dog - Entry point
+ *struct dog - Entry pointfor dog struct
  *@name: name dog pointer'=
  *@age: float
  *@owner: char pointer
